@@ -32,9 +32,10 @@ This project is an assembler for a custom, human-invented assembly language. The
   - **Entry Point List (`.ent`)**: Lists all entry points defined in the assembly code. This file is crucial for linking and loading processes, indicating where the program execution can begin.
   - **External References (`.ext`)**: Lists all symbols that are declared external and need to be resolved during linking. This supports modular programming and linking multiple assembly files.
 
-
-**Also i add the project task booklet**
+##Importatnt Note:
+There also the project task booklet, emphasizing its role in guiding the development process and documenting the project's objectives and milestones. 
 
 ## Contact
 
 Created by [Or Saban] - [or8saban@gmail.com] - feel free to contact me!
+
