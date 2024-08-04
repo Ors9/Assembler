@@ -37,5 +37,14 @@ There also the project task booklet, emphasizing its role in guiding the develop
 
 ## Contact
 
-Created by [Or Saban] - [or8saban@gmail.com] - feel free to contact me!
+**Or Saban**
+
+**Private Lessons and Project Guidance**
+
+**Contact Information:**
+- **Email:** or8saban@gmail.com
+- **Phone:** 054-463-6567
+
+Feel free to reach out for personalized tutoring and expert guidance on your projects.
+
 
