@@ -41,7 +41,7 @@ int macro_examine(char * macro_name_line , int line_count , Macro_list * head){
 
     /* Check if the macro name contains only valid characters */
     while(macro_name_line[i] != '\n'){
-        if( (isdigit(macro_name_line[i]) == 0) && (islower(macro_name_line[i]) == 0) && (isupper(macro_name_line[i]) == 0) && (macro_name_line[i] != '_') )   
+        if( (isdigit(macro_name_line[i]) == 0) && (islower(macro_name_line[i]) == 0) && (isupper(macro_name_line[i]) == 0) && macro_name_line[i] != '_')   
         {
            print_error_message(INVALID_MACRO_NAME, line_count);
            result = FAIL; /* Invalid character in macro name */

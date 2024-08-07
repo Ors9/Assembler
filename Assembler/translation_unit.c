@@ -13,7 +13,7 @@
  */
 char *  from_dec_to_oct(unsigned short binary_code , int addr){
     char * result = generic_malloc(MAX_FILE_LINE_LENGTH);/* Allocate memory for the result string */
-    binary_code = binary_code &  (~(1 << BITS));/* Remove the sign bit if present */
+    binary_code = binary_code &  (~(1 << ((sizeof(unsigned short) * 8) - 1)));/* Remove the sign bit if present */
     sprintf(result , "0%d\t%05o\n" , addr , binary_code );/* Format the result as an octal string */
     
     return result;

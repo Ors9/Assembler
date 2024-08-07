@@ -119,7 +119,8 @@ const  char  *error_messages[] = {
 "Already defined as extern",
 "Already defined as entry",
 "Missing label",
-"Data in command section"
+"Data in command section",
+"File name length exceed"
 
 
 };
@@ -255,8 +256,15 @@ void * generic_malloc(long size){
  * @return char* A new file name with the suffix added.
  */
 char * add_file(char * file_name , char * suffix){
-    char * new_file_name = generic_malloc( (MAX_FILE_LINE_LENGTH*sizeof(char)) );
+    char * new_file_name = NULL;
 
+    if(strlen(file_name) > MAX_FILE_LINE_LENGTH){
+	print_critical_error_message(FILE_LENGTH_EXCEED);
+	exit(1);
+    }
+    
+    new_file_name = generic_malloc( (MAX_FILE_LINE_LENGTH*sizeof(char)));
+	
     /*Copy the file name to new_file_name*/
     strcpy(new_file_name, file_name);
 
