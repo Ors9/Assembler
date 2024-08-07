@@ -94,7 +94,6 @@ int label_examine(char * label ,  Macro_list * head_macro , int line_count){
             result = FAIL;
             i = strlen(label);/* Terminate the loop early if an invalid character is found */
         }
-        i++;
     }
 
     
