@@ -36,16 +36,15 @@ This project is an assembler for a custom, human-invented assembly language. The
 ##  Importatnt Note
 There also the project task booklet, emphasizing its role in guiding the development process and documenting the project's objectives and milestones. 
 
-## Contact
+## 📞 Contact
 
-**Or Saban**
+**Or Saban**  
+*Private Lessons and Project Guidance*
 
-**Private Lessons and Project Guidance**
+- **📧 Email:** [or8saban@gmail.com](mailto:or8saban@gmail.com)  
+- **📱 Phone:** +972-54-463-6567  
 
-**Contact Information:**
-- **Email:** or8saban@gmail.com
-- **Phone:** 054-463-6567
+For personalized tutoring and expert project guidance, feel free to reach out!
 
-Feel free to reach out for personalized tutoring and expert guidance on your projects.
 
 
