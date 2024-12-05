@@ -34,7 +34,7 @@ This project is an assembler for a custom, human-invented assembly language. The
   - **External References (`.ext`)**: Lists all symbols that are declared external and need to be resolved during linking. This supports modular programming and linking multiple assembly files.
 
 ##  Important Note
-There also the project task booklet, emphasizing its role in guiding the development process and documenting the project's objectives and milestones. 
+The project task booklet is also included, and it serves as a key resource for guiding the development process. It outlines the project's objectives, milestones, and provides important documentation
 
 ## 📞 Contact
 
